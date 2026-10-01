@@ -1,4 +1,4 @@
-# NWAA Data Companion × Pesticide Observations (Pilot)
+# NWAA Data Companion with Pesticide Observations (Pilot)
 
 This workflow connects monthly modeled hydrology from the USGS **National Water Availability Assessment (NWAA) Data Companion** with pesticide observations at three pilot USGS stations.
 
