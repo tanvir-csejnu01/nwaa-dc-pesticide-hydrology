@@ -1,0 +1,26 @@
+# --- Large or private data (kept in Google Drive, not in Git) ---
+data/raw/*
+!data/raw/basins/
+data/raw/basins/*
+!data/raw/basins/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.parquet
+*.gpkg
+*.zip
+*_long.csv
+combined_*.csv
+
+# --- Secrets ---
+.env
+*.key
+secrets*
+
+# --- Python / Jupyter / editor ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.vscode/
+.DS_Store
